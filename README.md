@@ -1,0 +1,1 @@
+In this notebook I use crowdsourced Internet measurement data to identify regional boundaries for sampling Internet latency over Chicago. To fill in sparsely sampled areas I use IDW interpolation. I then bin these latency estimates into hexognal clusters using the H3 library. I then cluster the data using SKATER and k-means and compare the results. 
